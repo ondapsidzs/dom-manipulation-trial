@@ -11,7 +11,6 @@ import {
   BackgroundContainer,
   BackgroundOverlay,
 } from "./FirstContentStyles";
-import Grid from "./Grid";
 
 const FirstContent = () => {
   const [active, setActive] = useState(false);
@@ -66,7 +65,6 @@ const FirstContent = () => {
           dolorem vel pariatur dolorum culpa maiores aliquid accusamus tenetur
           fugit iure? Quas, debitis. Qui at soluta sint.
         </p>
-        <Grid activeToggle={activeImage} />
       </Content>
       <BackgroundContainer>
         <BackgroundOverlay />

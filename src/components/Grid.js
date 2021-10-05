@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
-import { GridContainer, GridContent, GridItem } from "./GridStyled";
+import { GridContainer, GridContent } from "./GridStyled";
 
 const Grid = (props) => {
-  const [imageData, setImageData] = useState([]);
-
   useEffect(() => {
     const fetchingData = async () => {
       const res = await fetch(
