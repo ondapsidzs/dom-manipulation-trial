@@ -25,7 +25,7 @@ const Grid = (props) => {
   return (
     <GridContainer>
       <GridContent>
-        {imageData.map((image, index) => {
+        {/* {imageData.map((image, index) => {
           return (
             <GridItem
               key={index}
@@ -34,7 +34,7 @@ const Grid = (props) => {
               onClick={props.activeToggle}
             />
           );
-        })}
+        })} */}
       </GridContent>
     </GridContainer>
   );
